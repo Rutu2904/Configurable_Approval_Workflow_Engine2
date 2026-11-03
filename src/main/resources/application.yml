@@ -4,8 +4,8 @@ spring:
   datasource:
     url: jdbc:h2:mem:workflowdb
     driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    username: Ruturaj
+    password: Tiger
   h2:
     console:
       enabled: true
