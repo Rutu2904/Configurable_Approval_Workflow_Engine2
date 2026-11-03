@@ -29,7 +29,7 @@ public class Request {
     @Column(name = "current_step_order")
     private Integer currentStepOrder;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "created_by", nullable = false)
     private User createdBy;
 
